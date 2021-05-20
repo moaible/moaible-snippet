@@ -11,6 +11,24 @@
 			"    constructor(name: string) {",
 			"        this.name = name;",
 			"    }",
+			"",
+			"    animalAction(): void {",
+			"        console.log('')",
+			"    }",
+			"}"
+		],
+		"description": "TypeScript: Definition of Class"
+	},
+	"ts;def;interface": {
+		"prefix": [
+			"ts;def;interface"
+		],
+		"body": [
+			"interface Animal {",
+			"",
+			"    name: string;",
+			"",
+			"    animalAction(): void;",
 			"}"
 		],
 		"description": "TypeScript: Definition of Class"
