@@ -1,0 +1,36 @@
+{
+	"java;def;class": {
+		"prefix": [
+			"java;def;class"
+		],
+		"body": [
+			"public class Animal {",
+			"",
+			"    String name",
+			"",
+			"    public Animal(String name) {",
+			"        this.name = name;",
+			"    }",
+			"",
+			"    public void animalAction() {",
+			"        System.out.println(\"\")",
+			"    }",
+			"}"
+		],
+		"description": "Java: Definition of Class"
+	},
+	"java;def;interface": {
+		"prefix": [
+			"java;def;interface"
+		],
+		"body": [
+			"interface Animal {",
+			"",
+			"    String name = \"\";",
+			"",
+			"    public void animalAction();",
+			"}"
+		],
+		"description": "Java: Definition of Interface"
+	}
+}
