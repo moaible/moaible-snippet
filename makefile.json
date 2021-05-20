@@ -1,0 +1,25 @@
+{
+	"any;base": {
+		"prefix": [
+			"any;base"
+		],
+		"body": [
+			".PHONY: setup",
+			"setup:",
+			"\techo setup",
+			"",
+			".PHONY: build",
+			"build:",
+			"\techo build",
+			"",
+			".PHONY: run",
+			"run:",
+			"\techo run",
+			"",
+			".PHONY: test",
+			"test:",
+			"\techo test"
+		],
+		"description": "Any configuration Makefile base template"
+	}
+}
