@@ -1,5 +1,5 @@
 {
-	"terraform;def;class": {
+	"terraform;def;output": {
 		"prefix": [
 			"tf;def;output"
 		],
@@ -8,6 +8,18 @@
 			"    value = some.user_def.property",
 			"}"
 		],
-		"description": "Java: Definition of Class"
+		"description": "Terraform: Definition of output block"
+    },
+	"terraform;def;input": {
+		"prefix": [
+			"tf;def;input",
+			"tf;def;variable"
+		],
+		"body": [
+			"output \"input_variable_def\" {",
+			"    type = string",
+			"}"
+		],
+		"description": "Terraform: Definition of input block"
     }
 }
