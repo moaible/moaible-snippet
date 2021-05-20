@@ -1,0 +1,13 @@
+{
+	"terraform;def;class": {
+		"prefix": [
+			"tf;def;output"
+		],
+		"body": [
+			"output \"output_def\" {",
+			"    value = some.user_def.property",
+			"}"
+		],
+		"description": "Java: Definition of Class"
+    }
+}
