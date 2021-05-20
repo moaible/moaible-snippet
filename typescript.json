@@ -31,6 +31,6 @@
 			"    animalAction(): void;",
 			"}"
 		],
-		"description": "TypeScript: Definition of Class"
+		"description": "TypeScript: Definition of Interface"
 	}
 }
