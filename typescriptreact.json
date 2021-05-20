@@ -1,11 +1,18 @@
 {
-	"Print.TypeScript:React": {
+	"ts;def;class": {
 		"prefix": [
-			"ts$print"
+			"ts;def;class"
 		],
 		"body": [
-			"console.log('$1');"
+			"class Animal {",
+			"",
+			"    name: string;",
+			"",
+			"    constructor(name: string) {",
+			"        this.name = name;",
+			"    }",
+			"}"
 		],
-		"description": "TypeScript - Print"
+		"description": "TypeScript: Definition of Class"
 	}
 }
