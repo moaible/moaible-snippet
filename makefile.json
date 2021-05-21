@@ -21,5 +21,19 @@
 			"\techo test"
 		],
 		"description": "Any configuration Makefile base template"
+	},
+	"any;parameter": {
+		"prefix": [
+			"any;parameter"
+		],
+		"body": [
+			"ifdef animal",
+			"\tANIMAL_PARAM=${animal}",
+			"else",
+			"#\tdefault",
+			"\tANIMAL_PARAM=DOG",
+			"endif",
+		],
+		"description": "Makefile any parameter definition"
 	}
 }

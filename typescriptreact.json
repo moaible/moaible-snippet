@@ -32,5 +32,27 @@
 			"}"
 		],
 		"description": "TypeScript: Definition of Interface"
+	},
+	"react;base;component;": {
+		"prefix": [
+			"react;base;component"
+		],
+		"body": [
+			"interface AnimalViewProps {",
+			"    name: string;",
+			"}",
+			"",
+			"const AnimalView: React.FunctionComponent<AnimalViewProps> = (props) => {",
+			"    return (",
+			"        <div>",
+			"            {props.name}",
+			"            {props.children}",
+			"        </div>",
+			"    )",
+			"};",
+			"",
+			"export default AnimalView;"
+		],
+		"description": "TypeScript-React: Definition of Props Interface"
 	}
 }

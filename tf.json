@@ -22,18 +22,5 @@
 			"}"
 		],
 		"description": "Terraform: Definition of input block"
-    },
-	"terraform;def;input": {
-		"prefix": [
-			"tf;def;input",
-			"tf;def;variable"
-		],
-		"body": [
-			"output \"input_variable_def\" {",
-			"    type = string",
-			"    default = string",
-			"}"
-		],
-		"description": "Terraform: Definition of input block"
     }
 }
